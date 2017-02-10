@@ -10,6 +10,19 @@
 		28AF02CE1E4D901100D8DE65 /* JJSwiftTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AF02C41E4D901100D8DE65 /* JJSwiftTool.framework */; };
 		28AF02D31E4D901100D8DE65 /* JJSwiftToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02D21E4D901100D8DE65 /* JJSwiftToolTests.swift */; };
 		28AF02D51E4D901100D8DE65 /* JJSwiftTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AF02C71E4D901100D8DE65 /* JJSwiftTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28AF02EC1E4D97E500D8DE65 /* Array+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02DF1E4D97E500D8DE65 /* Array+JJ.swift */; };
+		28AF02ED1E4D97E500D8DE65 /* Data+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E01E4D97E500D8DE65 /* Data+JJ.swift */; };
+		28AF02EE1E4D97E500D8DE65 /* Date+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E11E4D97E500D8DE65 /* Date+JJ.swift */; };
+		28AF02EF1E4D97E500D8DE65 /* Dictionary+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E21E4D97E500D8DE65 /* Dictionary+JJ.swift */; };
+		28AF02F01E4D97E500D8DE65 /* FileManager+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E31E4D97E500D8DE65 /* FileManager+JJ.swift */; };
+		28AF02F11E4D97E500D8DE65 /* Int+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E41E4D97E500D8DE65 /* Int+JJ.swift */; };
+		28AF02F21E4D97E500D8DE65 /* String+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E51E4D97E500D8DE65 /* String+JJ.swift */; };
+		28AF02F31E4D97E500D8DE65 /* Timer+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E61E4D97E500D8DE65 /* Timer+JJ.swift */; };
+		28AF02F41E4D97E500D8DE65 /* UIColor+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E71E4D97E500D8DE65 /* UIColor+JJ.swift */; };
+		28AF02F51E4D97E500D8DE65 /* UIDevice+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E81E4D97E500D8DE65 /* UIDevice+JJ.swift */; };
+		28AF02F61E4D97E500D8DE65 /* UIImage+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02E91E4D97E500D8DE65 /* UIImage+JJ.swift */; };
+		28AF02F71E4D97E500D8DE65 /* UILabel+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02EA1E4D97E500D8DE65 /* UILabel+JJ.swift */; };
+		28AF02F81E4D97E500D8DE65 /* UIView+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02EB1E4D97E500D8DE65 /* UIView+JJ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +42,19 @@
 		28AF02CD1E4D901100D8DE65 /* JJSwiftToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJSwiftToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AF02D21E4D901100D8DE65 /* JJSwiftToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJSwiftToolTests.swift; sourceTree = "<group>"; };
 		28AF02D41E4D901100D8DE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AF02DF1E4D97E500D8DE65 /* Array+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E01E4D97E500D8DE65 /* Data+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E11E4D97E500D8DE65 /* Date+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E21E4D97E500D8DE65 /* Dictionary+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E31E4D97E500D8DE65 /* FileManager+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E41E4D97E500D8DE65 /* Int+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E51E4D97E500D8DE65 /* String+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E61E4D97E500D8DE65 /* Timer+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E71E4D97E500D8DE65 /* UIColor+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E81E4D97E500D8DE65 /* UIDevice+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+JJ.swift"; sourceTree = "<group>"; };
+		28AF02E91E4D97E500D8DE65 /* UIImage+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+JJ.swift"; sourceTree = "<group>"; };
+		28AF02EA1E4D97E500D8DE65 /* UILabel+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+JJ.swift"; sourceTree = "<group>"; };
+		28AF02EB1E4D97E500D8DE65 /* UIView+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+JJ.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,7 @@
 		28AF02C61E4D901100D8DE65 /* JJSwiftTool */ = {
 			isa = PBXGroup;
 			children = (
+				28AF02DE1E4D97E500D8DE65 /* Extension */,
 				28AF02C71E4D901100D8DE65 /* JJSwiftTool.h */,
 				28AF02C81E4D901100D8DE65 /* Info.plist */,
 			);
@@ -84,6 +111,26 @@
 				28AF02D41E4D901100D8DE65 /* Info.plist */,
 			);
 			path = JJSwiftToolTests;
+			sourceTree = "<group>";
+		};
+		28AF02DE1E4D97E500D8DE65 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				28AF02DF1E4D97E500D8DE65 /* Array+JJ.swift */,
+				28AF02E01E4D97E500D8DE65 /* Data+JJ.swift */,
+				28AF02E11E4D97E500D8DE65 /* Date+JJ.swift */,
+				28AF02E21E4D97E500D8DE65 /* Dictionary+JJ.swift */,
+				28AF02E31E4D97E500D8DE65 /* FileManager+JJ.swift */,
+				28AF02E41E4D97E500D8DE65 /* Int+JJ.swift */,
+				28AF02E51E4D97E500D8DE65 /* String+JJ.swift */,
+				28AF02E61E4D97E500D8DE65 /* Timer+JJ.swift */,
+				28AF02E71E4D97E500D8DE65 /* UIColor+JJ.swift */,
+				28AF02E81E4D97E500D8DE65 /* UIDevice+JJ.swift */,
+				28AF02E91E4D97E500D8DE65 /* UIImage+JJ.swift */,
+				28AF02EA1E4D97E500D8DE65 /* UILabel+JJ.swift */,
+				28AF02EB1E4D97E500D8DE65 /* UIView+JJ.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +243,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AF02F21E4D97E500D8DE65 /* String+JJ.swift in Sources */,
+				28AF02F51E4D97E500D8DE65 /* UIDevice+JJ.swift in Sources */,
+				28AF02F81E4D97E500D8DE65 /* UIView+JJ.swift in Sources */,
+				28AF02EC1E4D97E500D8DE65 /* Array+JJ.swift in Sources */,
+				28AF02EE1E4D97E500D8DE65 /* Date+JJ.swift in Sources */,
+				28AF02ED1E4D97E500D8DE65 /* Data+JJ.swift in Sources */,
+				28AF02EF1E4D97E500D8DE65 /* Dictionary+JJ.swift in Sources */,
+				28AF02F61E4D97E500D8DE65 /* UIImage+JJ.swift in Sources */,
+				28AF02F31E4D97E500D8DE65 /* Timer+JJ.swift in Sources */,
+				28AF02F71E4D97E500D8DE65 /* UILabel+JJ.swift in Sources */,
+				28AF02F01E4D97E500D8DE65 /* FileManager+JJ.swift in Sources */,
+				28AF02F41E4D97E500D8DE65 /* UIColor+JJ.swift in Sources */,
+				28AF02F11E4D97E500D8DE65 /* Int+JJ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +416,7 @@
 		28AF02DC1E4D901100D8DE65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = JJSwiftToolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianjing.JJSwiftToolTests;
@@ -367,6 +428,7 @@
 		28AF02DD1E4D901100D8DE65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = JJSwiftToolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jianjing.JJSwiftToolTests;
@@ -394,6 +456,7 @@
 				28AF02DA1E4D901100D8DE65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28AF02DB1E4D901100D8DE65 /* Build configuration list for PBXNativeTarget "JJSwiftToolTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +465,7 @@
 				28AF02DD1E4D901100D8DE65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
