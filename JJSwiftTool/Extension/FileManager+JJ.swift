@@ -29,24 +29,26 @@ extension FileManager {
         return self.default.urls(for: directory, in: .userDomainMask).last
     }
     
-    public static func jjs_pathForDirectory(directory: SearchPathDirectory) -> String?
+    public static func jjs_pathForDirectory(directory: SearchPathDirectory) -> String
     {
         let strArray: [String] = NSSearchPathForDirectoriesInDomains(directory, .userDomainMask, true)
+        
+        assert(strArray.count > 0)
 
-        return strArray.count > 0 ? strArray[0] : nil
+        return strArray.count > 0 ? strArray[0] : "Can't find directory"
     }
     
-    public static func jjs_documentsDirector() -> String?
+    public static func jjs_documentsDirector() -> String
     {
         return self.jjs_pathForDirectory(directory: .documentDirectory)
     }
     
-    public static func jjs_libraryDirectory() -> String?
+    public static func jjs_libraryDirectory() -> String
     {
         return self.jjs_pathForDirectory(directory: .libraryDirectory)
     }
     
-    public static func jjs_cachesDirectory() -> String?
+    public static func jjs_cachesDirectory() -> String
     {
         return self.jjs_pathForDirectory(directory: .cachesDirectory)
     }
