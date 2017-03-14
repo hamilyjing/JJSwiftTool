@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		289C52001E77DB7C007AE6B0 /* NSObject+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289C51FF1E77DB7C007AE6B0 /* NSObject+JJ.swift */; };
+		289C52041E77DCD7007AE6B0 /* NSObject+JJ+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289C52031E77DCD7007AE6B0 /* NSObject+JJ+Test.swift */; };
 		28AF02CE1E4D901100D8DE65 /* JJSwiftTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AF02C41E4D901100D8DE65 /* JJSwiftTool.framework */; };
 		28AF02D31E4D901100D8DE65 /* JJSwiftToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF02D21E4D901100D8DE65 /* JJSwiftToolTests.swift */; };
 		28AF02D51E4D901100D8DE65 /* JJSwiftTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AF02C71E4D901100D8DE65 /* JJSwiftTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		289C51FF1E77DB7C007AE6B0 /* NSObject+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+JJ.swift"; sourceTree = "<group>"; };
+		289C52031E77DCD7007AE6B0 /* NSObject+JJ+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+JJ+Test.swift"; sourceTree = "<group>"; };
 		28AF02C41E4D901100D8DE65 /* JJSwiftTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJSwiftTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AF02C71E4D901100D8DE65 /* JJSwiftTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSwiftTool.h; sourceTree = "<group>"; };
 		28AF02C81E4D901100D8DE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		289C52011E77DCB1007AE6B0 /* JJSwiftTool */ = {
+			isa = PBXGroup;
+			children = (
+				289C52021E77DCB1007AE6B0 /* Extension */,
+			);
+			path = JJSwiftTool;
+			sourceTree = "<group>";
+		};
+		289C52021E77DCB1007AE6B0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				289C52031E77DCD7007AE6B0 /* NSObject+JJ+Test.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		28AF02BA1E4D901100D8DE65 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +127,7 @@
 		28AF02D11E4D901100D8DE65 /* JJSwiftToolTests */ = {
 			isa = PBXGroup;
 			children = (
+				289C52011E77DCB1007AE6B0 /* JJSwiftTool */,
 				28AF02D21E4D901100D8DE65 /* JJSwiftToolTests.swift */,
 				28AF02D41E4D901100D8DE65 /* Info.plist */,
 			);
@@ -129,6 +150,7 @@
 				28AF02E91E4D97E500D8DE65 /* UIImage+JJ.swift */,
 				28AF02EA1E4D97E500D8DE65 /* UILabel+JJ.swift */,
 				28AF02EB1E4D97E500D8DE65 /* UIView+JJ.swift */,
+				289C51FF1E77DB7C007AE6B0 /* NSObject+JJ.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -244,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AF02F21E4D97E500D8DE65 /* String+JJ.swift in Sources */,
+				289C52001E77DB7C007AE6B0 /* NSObject+JJ.swift in Sources */,
 				28AF02F51E4D97E500D8DE65 /* UIDevice+JJ.swift in Sources */,
 				28AF02F81E4D97E500D8DE65 /* UIView+JJ.swift in Sources */,
 				28AF02EC1E4D97E500D8DE65 /* Array+JJ.swift in Sources */,
@@ -264,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AF02D31E4D901100D8DE65 /* JJSwiftToolTests.swift in Sources */,
+				289C52041E77DCD7007AE6B0 /* NSObject+JJ+Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
