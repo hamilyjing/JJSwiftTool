@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2882D1521E80C14800A45270 /* JJThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882D1511E80C14800A45270 /* JJThen.swift */; };
 		289C52001E77DB7C007AE6B0 /* NSObject+JJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289C51FF1E77DB7C007AE6B0 /* NSObject+JJ.swift */; };
 		289C52041E77DCD7007AE6B0 /* NSObject+JJ+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289C52031E77DCD7007AE6B0 /* NSObject+JJ+Test.swift */; };
 		28AF02CE1E4D901100D8DE65 /* JJSwiftTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AF02C41E4D901100D8DE65 /* JJSwiftTool.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2882D1511E80C14800A45270 /* JJThen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJThen.swift; sourceTree = "<group>"; };
 		289C51FF1E77DB7C007AE6B0 /* NSObject+JJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+JJ.swift"; sourceTree = "<group>"; };
 		289C52031E77DCD7007AE6B0 /* NSObject+JJ+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+JJ+Test.swift"; sourceTree = "<group>"; };
 		28AF02C41E4D901100D8DE65 /* JJSwiftTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJSwiftTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2882D1501E80C14800A45270 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				2882D1511E80C14800A45270 /* JJThen.swift */,
+			);
+			path = Then;
+			sourceTree = "<group>";
+		};
 		289C52011E77DCB1007AE6B0 /* JJSwiftTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 		28AF02C61E4D901100D8DE65 /* JJSwiftTool */ = {
 			isa = PBXGroup;
 			children = (
+				2882D1501E80C14800A45270 /* Then */,
 				28AF02DE1E4D97E500D8DE65 /* Extension */,
 				28AF02C71E4D901100D8DE65 /* JJSwiftTool.h */,
 				28AF02C81E4D901100D8DE65 /* Info.plist */,
@@ -268,6 +279,7 @@
 				28AF02F21E4D97E500D8DE65 /* String+JJ.swift in Sources */,
 				289C52001E77DB7C007AE6B0 /* NSObject+JJ.swift in Sources */,
 				28AF02F51E4D97E500D8DE65 /* UIDevice+JJ.swift in Sources */,
+				2882D1521E80C14800A45270 /* JJThen.swift in Sources */,
 				28AF02F81E4D97E500D8DE65 /* UIView+JJ.swift in Sources */,
 				28AF02EC1E4D97E500D8DE65 /* Array+JJ.swift in Sources */,
 				28AF02EE1E4D97E500D8DE65 /* Date+JJ.swift in Sources */,
