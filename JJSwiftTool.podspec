@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JJSwiftTool"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "iOS swift development tool"
   s.homepage     = "https://github.com/hamilyjing/JJSwiftTool"
   s.license      = "MIT"
